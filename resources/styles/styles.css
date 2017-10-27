@@ -6,19 +6,25 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+#dietLabel{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
 #addHead{
   text-align: center;
   margin-bottom: 30px;
 }
+
 #editButton{
 padding-top: 10px;
 paddong-bottom: 10px;
 }
+
 #editHead{
   text-align: center;
   margin-bottom: 20px;
 }
-
 
 tr{
   text-align: right;

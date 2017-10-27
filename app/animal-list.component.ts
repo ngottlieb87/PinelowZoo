@@ -12,12 +12,12 @@ import { Animal } from './animal.model'
     <option value= "allAges" selected="selected">All Animals</option>
   </select>
 
-  <label>Filter By Diet</label>
+  <label id="dietLabel">Filter By Diet</label>
   <select (change)='onChangeDiet($event.target.value)'>
     <option value= "herbivore">Herbivore</option>
     <option value="carnivore">Carnivore</option>
     <option value="omnivore">Omnivore</option>
-    <option value = "allAnimals">All Animals</option>
+    <option value = "allAnimals" selected= "selected">All Animals</option>
   </select>
 
   <table class = 'table'>

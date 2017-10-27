@@ -25,7 +25,7 @@ import { Animal } from './animal.model';
           <td><label>Dislikes</label> <input #newAnimalDislikes></td>
         </tr>
       </tbody>
-      <button id="newButton" (click)="submitForm(newAnimalSpecies.value, newAnimalName.value, newAnimalAge.value, newAnimalDiet.value, newAnimalDiet.value, newAnimalLocation.value, newAnimalCaretakers.value, newAnimalSex.value, newAnimalLikes.value, newAnimalDislikes.value); newAnimalSpecies.value=''; newAnimalName.value='';  newAnimalAge.value=null; newAnimalDiet.value=''; newAnimalLocation.value=''; newAnimalCaretakers.value=null; newAnimalSex.value=''; newAnimalLikes.value=''; newAnimalDislikes.value='';" class= 'btn btn-info'>Add Animal</button>
+      <button id="newButton" (click)="submitForm(newAnimalSpecies.value, newAnimalName.value, newAnimalAge.value, newAnimalDiet.value, newAnimalLocation.value, newAnimalCaretakers.value, newAnimalSex.value, newAnimalLikes.value, newAnimalDislikes.value); newAnimalSpecies.value=''; newAnimalName.value='';  newAnimalAge.value=null; newAnimalDiet.value=''; newAnimalLocation.value=''; newAnimalCaretakers.value=null; newAnimalSex.value=''; newAnimalLikes.value=''; newAnimalDislikes.value='';" class= 'btn btn-info'>Add Animal</button>
     </table>
   </div>
 
