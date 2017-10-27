@@ -9,7 +9,7 @@ import { Animal } from './animal.model'
   <select (change)='onChange($event.target.value)'>
     <option value="underTwo">Under Age 2</option>
     <option value= "overTwo">Over Age 2</option>
-    <option value= "allAges" selected="selected">All Animals</option>
+    <option value= "allAges" selected="selected">All Ages</option>
   </select>
 
   <label id="dietLabel">Filter By Diet</label>
@@ -17,7 +17,7 @@ import { Animal } from './animal.model'
     <option value= "herbivore">Herbivore</option>
     <option value="carnivore">Carnivore</option>
     <option value="omnivore">Omnivore</option>
-    <option value = "allAnimals" selected= "selected">All Animals</option>
+    <option value = "allAnimals" selected= "selected">All Diets</option>
   </select>
 
   <table class = 'table'>
