@@ -6,10 +6,10 @@ import { Animal } from './animal.model'
   selector: 'app-root',
   template: `
   <div class= 'container'>
-    <h1>{{currentFocus}}</h1>
+    <h1 id="zooName">{{currentFocus}}</h1>
 
     <div id="animalList" class= "well">
-      <h3>Animals</h3>
+      <h2 id="listHead">Animals</h2>
       <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
       <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
       <animal-edit [childSelectedAnimal]="selectedAnimal" (animalButtonClickedSender)="finishedEditing()"></animal-edit>

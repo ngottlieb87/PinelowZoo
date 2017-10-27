@@ -1,3 +1,12 @@
+#zooName{
+  border-radius: 8px;
+  margin-right: 687px;
+  margin-top: 80px;
+  padding: 10px;
+  font-family: 'Arima Madurai', cursive;
+  background-color: #fff2bf;;
+}
+
 #newButton{
   margin-left: 150px;
   margin-top: 10px;
@@ -14,16 +23,34 @@
 #addHead{
   text-align: center;
   margin-bottom: 30px;
+  font-family: 'Arima Madurai', cursive;
 }
 
 #editButton{
 padding-top: 10px;
-paddong-bottom: 10px;
+padding-bottom: 10px;
 }
 
 #editHead{
   text-align: center;
   margin-bottom: 20px;
+  font-family: 'Arima Madurai', cursive;
+}
+
+#listHead{
+  font-family: 'Arima Madurai', cursive;
+  text-align: center;
+}
+.well{
+background-color: #fff2bf;
+}
+body{
+  background-image: url("http://worldofdtcmarketing.com/wp-content/uploads/2015/04/jungle-forest.jpg");
+  background-size: 100%;
+}
+
+td{
+  font-family: 'Nobile', sans-serif; ;
 }
 
 tr{
