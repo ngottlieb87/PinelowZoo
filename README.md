@@ -34,7 +34,7 @@ Pinelow Zoo was in need of a new animal input system that could allow workers to
 
 ## Screenshots:
 _Default Page_
-![Picture of Default Page](/resources/images/default.png)
+![Picture of Default Page](resources/images/default.png)
 
 
 _Edit Menu_
