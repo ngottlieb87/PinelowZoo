@@ -15,7 +15,7 @@ import { Animal } from './animal.model';
           </thead>
           <tbody>
             <td><input [(ngModel)]="childSelectedAnimal.name"></td>
-            <td><input [(ngModel)]="childSelectedAnimal.age"></td>
+            <td><input [(ngModel)]="childSelectedAnimal.age" type= number min=0 oninput="validity.valid||(value='')"></td>
             <td><input [(ngModel)]="childSelectedAnimal.careTakers"></td>
           </tbody>
         </table>

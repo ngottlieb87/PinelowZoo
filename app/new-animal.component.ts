@@ -12,12 +12,12 @@ import { Animal } from './animal.model';
         <tr>
           <td><label>Species</label> <input #newAnimalSpecies></td>
           <td><label>Name</label> <input #newAnimalName></td>
-          <td><label>Age</label> <input #newAnimalAge type="number"></td>
+          <td><label>Age</label> <input #newAnimalAge type="number" min=0 oninput="validity.valid||(value='')"></td>
         </tr>
         <tr>
           <td> <label>Diet</label> <input #newAnimalDiet></td>
           <td><label>Location</label> <input #newAnimalLocation></td>
-          <td><label>Caretakers</label> <input #newAnimalCaretakers type="number"></td>
+          <td><label>Caretakers</label> <input #newAnimalCaretakers type="number" min=0 oninput="validity.valid||(value='')"></td>
         </tr>
         <tr>
           <td><label>Sex</label> <input #newAnimalSex></td>
