@@ -33,9 +33,9 @@ Pinelow Zoo was in need of a new animal input system that could allow workers to
   ###### _Javascript, Typescript, CSS, Bootstrap, NPM, Gulp_
 
 ## Screenshots:
-_Default Page_
-![Picture of Default Page](resources/images/default.png)
+_Landing Page_
+![Picture of Landing Page](resources/images/mainPage.png)
 
 
 _Edit Menu_
-![Picture of Edit Menu](resources/images/editZoo.png)
+![Picture of Edit Menu](resources/images/editMenu.png)
