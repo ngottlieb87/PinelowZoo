@@ -30,6 +30,7 @@ import { Animal } from './animal.model'
       <td>{{animal.sex}}</td>
       <td>{{animal.likes}}</td>
       <td>{{animal.dislikes}}</td>
+      <td><button class = "btn btn-primary" (click)="editButtonClicked(animal)">Edit Animal</button></td>
     </tr>
     </tbody>
   </table>
@@ -40,4 +41,8 @@ import { Animal } from './animal.model'
 export class AnimalListComponent{
   @Input() childAnimalList: Animal[];
   @Output() clickSender = new EventEmitter();
+
+  editButtonClicked(animalToEdit, Animal){
+    this.clickSender.emit(animalToEdit);
+  }
 }

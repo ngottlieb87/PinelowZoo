@@ -10,8 +10,9 @@ import { Animal } from './animal.model'
 
     <div id="animalList" class= "well">
       <h3>Animals</h3>
-      <animal-list [childAnimalList]="masterAnimalList"></animal-list>
+      <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
       <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
+      <animal-edit [childSelectedAnimal]="selectedAnimal" (animalButtonClickedSender)="finishedEditing()"></animal-edit>
     </div>
 
   </div>
@@ -20,7 +21,7 @@ import { Animal } from './animal.model'
 })
   export class AppComponent{
     currentFocus: string = 'Pinelow Zoo Animal Tacker';
-
+    selectedAnimal=null;
     masterAnimalList: Animal[]= [
       new Animal('Aligator', 'Bitey', 4, 'Carnivore', 'Reptile Building', 3, 'Female', 'Laying under heatlamp', 'Tapping on the glass'),
       new Animal('Badger', 'Stripes', 2, 'Omnivore', 'Small Furry Building', 2, 'Male', 'Playing with the red ball', 'Hot weather'),
@@ -29,5 +30,12 @@ import { Animal } from './animal.model'
 
     addAnimal(newAnimalFromChild: Animal){
       this.masterAnimalList.push(newAnimalFromChild);
+    }
+
+    editAnimal(clickedAnimal){
+      this.selectedAnimal = clickedAnimal;
+    }
+    finishedEditing(){
+      this.selectedAnimal = null;
     }
   }
