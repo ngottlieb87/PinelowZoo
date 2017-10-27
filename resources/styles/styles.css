@@ -1,6 +1,24 @@
-table {
-  width: 100%;
+#newButton{
+  margin-left: 150px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+#addHead{
+  text-align: center;
+  margin-bottom: 30px;
+}
+#editButton{
+padding-top: 10px;
+paddong-bottom: 10px;
+}
+#editHead{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 
 tr{
   text-align: right;

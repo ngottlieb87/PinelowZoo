@@ -6,7 +6,7 @@ import { Animal } from './animal.model';
   template: `
 
   <div class="well">
-    <h1>Add New Animal</h1>
+    <h1 id= "addHead">Add New Animal</h1>
     <table class="table">
       <tbody>
         <tr>
@@ -25,7 +25,7 @@ import { Animal } from './animal.model';
           <td><label>Dislikes</label> <input #newAnimalDislikes></td>
         </tr>
       </tbody>
-      <button (click)="submitForm(newAnimalSpecies.value, newAnimalName.value, newAnimalAge.value, newAnimalDiet.value, newAnimalDiet.value, newAnimalLocation.value, newAnimalCaretakers.value, newAnimalSex.value, newAnimalLikes.value, newAnimalDislikes.value); newAnimalSpecies.value=''; newAnimalName.value='';  newAnimalAge.value=null; newAnimalDiet.value=''; newAnimalLocation.value=''; newAnimalCaretakers.value=null; newAnimalSex.value=''; newAnimalLikes.value=''; newAnimalDislikes.value='';" class= 'btn btn-info'>Add Animal</button>
+      <button id="newButton" (click)="submitForm(newAnimalSpecies.value, newAnimalName.value, newAnimalAge.value, newAnimalDiet.value, newAnimalDiet.value, newAnimalLocation.value, newAnimalCaretakers.value, newAnimalSex.value, newAnimalLikes.value, newAnimalDislikes.value); newAnimalSpecies.value=''; newAnimalName.value='';  newAnimalAge.value=null; newAnimalDiet.value=''; newAnimalLocation.value=''; newAnimalCaretakers.value=null; newAnimalSex.value=''; newAnimalLikes.value=''; newAnimalDislikes.value='';" class= 'btn btn-info'>Add Animal</button>
     </table>
   </div>
 
