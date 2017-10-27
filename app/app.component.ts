@@ -11,6 +11,7 @@ import { Animal } from './animal.model'
     <div id="animalList" class= "well">
       <h3>Animals</h3>
       <animal-list [childAnimalList]="masterAnimalList"></animal-list>
+      <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
     </div>
 
   </div>
@@ -24,5 +25,9 @@ import { Animal } from './animal.model'
       new Animal('Aligator', 'Bitey', 4, 'Carnivore', 'Reptile Building', 3, 'Female', 'Laying under heatlamp', 'Tapping on the glass'),
       new Animal('Badger', 'Stripes', 2, 'Omnivore', 'Small Furry Building', 2, 'Male', 'Playing with the red ball', 'Hot weather'),
       new Animal('Brown Bear', 'Samson', 12 , 'Omnivore', 'Large Beasts', 5, 'Female', 'Frozen Fishcilcles', 'Loud noises')
-    ]
+    ];
+
+    addAnimal(newAnimalFromChild: Animal){
+      this.masterAnimalList.push(newAnimalFromChild);
+    }
   }
