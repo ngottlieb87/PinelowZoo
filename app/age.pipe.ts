@@ -25,7 +25,7 @@ export class AgePipe implements PipeTransform{
       }
       return output;
     }else if(age === "allAges"){
-      for(let i=0;i<input.length;i++){
+      for(let i=0; i<input.length; i++){
         if(input[i].age > 0){
           output.push(input[i]);
         }
