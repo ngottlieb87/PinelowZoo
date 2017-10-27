@@ -7,6 +7,12 @@ import { Animal } from './animal.model'
   template: `
   <div class= 'container'>
     <h1>{{currentFocus}}</h1>
+
+    <div id="animalList" class= "well">
+      <h3>Animals</h3>
+      <animal-list [childAnimalList]="masterAnimalList"></animal-list>
+    </div>
+
   </div>
 
   `
