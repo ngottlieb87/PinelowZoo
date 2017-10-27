@@ -21,11 +21,11 @@ Pinelow Zoo was in need of a new animal input system that could allow workers to
 ## Specs
 
 | Behavior    |  Input        | Output |
-| ------------- |:-------------:| -----:|
-| Add a New Animal to Pinelow Zoo | Alligator, Jeff, 12, Reptile Building, 7, Scratches under his chin, Thunder   | _Information added to table in desired Columns(Species, Name, Age, Location, Caretakers, Likes, Dislikes)_
-|  Edit Existing animal | _click edit button next to Jeff and change name to Charles_ | Alligator, Charles, 12, Reptile Building, 7, Scratches under his chin, Thunder |
-| Filter By Age | _Select Animals Younger than 2 years old | _display only animals who's age is 2 or younger_ |
-| Filter By Diet | _Select Animals Diet: Carnivore_ | _display only animals that eat meat_ |
+| :------------- |:-------------| :-----|
+| Add a new animal to Pinelow Zoo | Alligator, Jeff, 12, Reptile Building, 7, Scratches under his chin, Thunder   | _Information added to table in desired Columns(Species, Name, Age, Location, Caretakers, Likes, Dislikes)_
+|  Edit existing animal | _Click edit button next to Jeff and change name to Charles_ | Alligator, Charles, 12, Reptile Building, 7, Scratches under his chin, Thunder |
+| Filter by age | _Select Animals Younger than 2 years old_ | _Display only animals who's age is 2 or younger_ |
+| Filter by diet | _Select animals diet: Carnivore_ | _Display only animals that eat meat_ |
 
 
 ## Languages/Frameworks Used:
@@ -34,8 +34,8 @@ Pinelow Zoo was in need of a new animal input system that could allow workers to
 
 ## Screenshots:
 _Default Page_
-![Screen Shot](/Users/Guest/desktop/localZoo/resources/images/Edit Zoo.png)
+![Picture of Default Page](/resources/images/default.png)
 
 
 _Edit Menu_
-![Screen Shot](/Users/Guest/desktop/localZoo/resources/images/Default.png)
+![Picture of Edit Menu](resources/images/editZoo.png)
